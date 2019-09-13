@@ -77,4 +77,6 @@ function init () {
     
     document.querySelector('.player-0-panel').classList.add('active');
     document.querySelector('.player-1-panel').classList.remove('active');
+    document.querySelector('.btn-roll').disabled = false;
+    document.querySelector('.btn-hold').disabled = false;
 }
